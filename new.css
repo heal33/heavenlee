@@ -1,0 +1,176 @@
+body {
+  background-color: #F3F3F3;
+  color: #303030;
+  font-family: Arial;
+  line-height: 2em;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+.pull-left > *:last-child {
+  border-bottom: 0;
+}
+
+
+.clear-fix {
+  clear: both;
+}
+
+#main-header h1, #main-header h2{
+  margin: 0;
+}
+
+#main-header h1 {
+  color: #9BB78F;
+}
+
+#main-header h2{
+  font-size: 1em;
+}
+
+#main-header {
+  color: #7a7a7a;
+  width: 700px;
+  padding: 15px 0;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  background-color: #fff;
+}
+
+#main-header .logo {
+  float: left;
+}
+
+#main-header nav {
+  float: right;
+}
+
+#main-header nav li a {
+  text-decoration: none;
+  color: inherit;
+  
+}
+
+nav ul, nav li {
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left:40px;
+}
+
+.main {
+  padding-top: 80px;
+}
+
+.main .inner-content {
+  width: 700px;
+  margin: 0 auto;
+  padding: 40px 0px;
+}
+
+#main-header .inner-content {
+  width: 700px;
+  margin: 0 auto;
+}
+
+
+/*HEADERS*/
+
+.main header {
+  text-align: center;
+}
+
+.main header h1 {
+  text-align: center;
+  border-bottom: 3px solid #9BB78F;
+  display: inline-block;
+  margin-bottom: 50px;
+  font-size: 1.8em;
+  padding-bottom: 10px;
+}
+
+.main .bg-green header h1 {
+  border-bottom: 3px solid #FFF;
+
+}
+
+#resume h3 {
+  margin: 0;
+  padding: 0;
+}
+
+#resume .employer {
+    color: #9BB78F;
+  font-weight: bold;
+}
+
+#resume .employment {
+  padding: 20px 0 10px;
+}
+
+.job-title {
+  float:left;
+}
+
+.job-date {
+  float:right;
+  font-size: .9em;
+}
+
+.clear-fix {
+  clear: both;
+}
+
+{
+  color:#9BB78F;
+}
+
+ {
+  border-bottom: 3px solid #9BB78F;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+
+
+.bg-green {
+  background-color: #9BB78F;
+  color: #fff;
+}
+
+.bg-lightGreen {
+  background-color: #D5DED1;
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact ul, .skills ul {
+  margin: 0;
+  padding: 0;
+}
+
+.contact li {
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.skills li {
+  list-style: none;
+
+}
+
+footer {
+  background-color: #585858;
+  color: #eee;
+  text-align: center;
+  padding: 20px 0;
+}
+
+

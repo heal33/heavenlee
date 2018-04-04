@@ -1,0 +1,379 @@
+# Linux for PHP Developers
+
+Atom - atom.io 
+
+- Free, open source and cross platform
+
+PHP MySQL Clients - security issues, not worth the risk
+
+Getting Started
+
+Networking fundamentals
+
+	- Internet Protocol Suite
+		- TCP
+		- IP - routing and addressing
+		- HTTP - exchange of html documents
+
+	
+The lifecycle of a request
+
+	What happens when you type a URL into a browser and press enter?
+	
+	Client-Server Model
+	
+		Distributed application structure
+			- Client requests data.
+			- Server responds with data.
+
+	World Wide Web (WWW)
+		- Uses cilent-server architecture
+		- Sends data over Hypertext Transfer Protocol (HTTP)
+			- Client requests over HTTP.
+			- Server responds over HTTP.
+	
+	Client -> Request -> Server
+				  |
+				  V	
+	Client <- Response <- Server
+
+	Web server repsonses
+		- Static - doesn't beed generatation; already exist
+			- images, stylesheets, or HTML
+		- Dynamic - created on the fly
+			- Generated with an interpreter
+			- PHP, Ruby, NodeJS
+
+	Impractical to Store Content in Code
+		- Use a database server for persistant data
+		- Information that doesn't chane often
+	
+	
+Where should I be developing?
+	
+	Software Enviroments: DTAP
+		- Development
+		- Testing
+		- Acceptance
+		- Production
+
+	Automated Test
+		- Unit Test
+		- Integration Test
+
+
+	Production Environment
+		- No debugging or testing are needed, log and monitor instead.
+
+	Environemt Isolation
+		- Testing shouldn't affect users
+		- USers shouldn't access dev or test
+
+	Development Env
+		- Are not publicly accessible
+		- Are the only place to make code changes
+
+Where should I put a dev server?
+
+	Local
+
+	Why? 
+
+	Web Hosting Services for Dev
+		Provide server space via the internet
+
+	Self-Hosting for Dev
+		Has more maintenance overhead
+			- Keeps servers current
+
+	Locally hosting for Dev
+		- Full application on your workstation
+		- Fast services - local
+		- unshared with others
+		- Flexible - install what you need
+		- Work without internet
+		- Portable
+		- Inexpensive: You already have it
+
+	Remote Dev Advantages
+		- PLatform uniformity - works on my machine
+		- Security and management
+		- Deployment speed: less to synchonize
+
+	Mitigating Local Dev Risks
+		- Secure account
+			- 2F and hardware key
+		- Encrypt hard drive
+		- Only store what's needed
+			- Avoid PLL
+		- Don't keep everything local
+
+	Local Dev Best Pratice
+		- Remote backups
+		- Configuration management
+			- start with documentation
+			- use systems designed to help
+		- Mirror production configuration
+	
+What is Linux and why should I use it?
+
+	What is an operating system?
+		- Software needed o run programs	
+		- Manages computer hardware as an intermediary
+
+	What is Linux?
+		- Free and open-source OS
+		- Modeled on Unix
+			- Multitasking and multiuser OS
+	
+	Free and open source software (FOSS)
+		- Change software to meet your needs
+
+	Open source
+		- Source code available to read and modify
+		- Collaboration leads to better results
+		
+	FOSS advantages
+		- Focus on something new, not reinventing the wheel
+		- Large community base
+	
+	
+Choosing a Linux distribution
+	
+	A Linux distribution is a combination of software that adds functionality toLinux
+		
+	Typically packages for a purpose
+		- Desktop - GUI and office suite
+		- Server - no GUI, less software, and easy to configure
+		
+	Can be community based or commercial
+
+	openSUSE
+		- Fifth more popular distro
+		- Developed since 1994
+		- sponsored by SUSE LInux GmbH
+	
+	Fedora
+		- Seventh most popular
+		- General purpose
+		- Developed since 1995 (Red Hat Linux)
+		- Split into community and commercial
+		- Short life cycle - 13 months per version
+
+	Ubuntu
+		- focused on features and support
+		- Fork of Debian
+		- Fourth most popular
+		- Sponsored by Canonical
+		- Regualr release cycle - 6 months
+		- Long-term support - 2 years
+	
+Introducing virtualizaton	
+	
+	System Virtual Machine (VM)
+		- Is software emulation fof a physical computer
+
+	Hypervisor or virtual machone monitor
+		- Creates and runs VMs
+			- Managed like programs on your OS
+		- Configures VMs
+		- Monitors status of VMs
+		- Example - Oracle VM virtualbox
+	
+What is LAMP and why does it matter?
+		
+	Solution Stack
+		- Complete set of software that performs a task
+
+	Linux, Apache, MySQL, PHP
+
+	Distributions are purpose built
+		- Fast software installation
+
+	Linux Alternatives
+		- Windows - WAMP
+		- Mac - MAMP
+		
+	Apache
+		- Handles large amounts of traffic
+		- Flexible in serving content
+		- relatively easy to configure
+	
+	Alternative to Apache
+		- nginx
+			- lightweight, fast web server
+			- reverse proxy server
+			- serves large amounts of traffic
+	
+	MySQL
+		- Second most popular database
+		- Stable fast, and scalable
+
+	MySQL Alternatives
+		- MariaDB -fork of MySQL
+		- PostgreSQL - LAPP
+	
+Managing the Server from the Command Line
+Talk to yourself with local networking
+	
+	Web server and hostnames
+		- HTTP request include the hostname of the target
+			GET / HTTP/1.1
+			Host: info.cern.ch
+			Connection: close
+
+		Same server and multiple hostnames
+	
+	Hosts File
+		PLain text file by OS
+		Map hostnames to IP Addresses
+		First place checked for IP lookups
+		Locally defines any hostname
+		Overrides external mappings
+
+	Hosts File
+		Format - IP and then hostname
+		127.0.0.1 localhost
+
+	Host files and development
+		Fast - no latency
+		No internet connection
+		Use any domain name
+		Access projects by logical names
+		
+	Mapping to localhost
+		Edit localhost file
+			127.0.0.1	domain.com
+		
+	Mac hosts file
+		/etc/hosts
+		
+Logging in using Secure Shell
+	
+	Encrypted network protocol
+	Secure data communication
+	
+	SSH uses
+		Remote command-line login
+		Remote command execution
+	
+	SSH client-server architecture
+		SSH service -runs on server
+		SSH client - connects to service
+		
+	SSH public-key cyptography
+		Two linked keys are generated
+			Public - shared with target
+			Private - only on your computer
+	
+		Public key encrypts and authenticates
+		Private key decrypts
+		Key that encrypts connot decrypt
+	
+	SSH authentication: login
+		Username and password required
+		Automatically generated public/private keys
+		Relatively secure but manual
+
+	SSH authentication: key based
+		Manually generated private/public keys
+		Requires private/public match
+		authorized_keys - contains all public keys allowed 
+		More secure than username/password logins
+
+	Why use SSH for local dev
+		Better clients than virtualbox screen
+		compatible with development tools
+			IDEs like NetBeans
+			Utilities like Drush and WP-CLI
+		Best practice for remote servers
+	
+SSH on a Mac
+	
+	Generate key
+		ssh-keygen -t rsa -C "username@example.com"
+
+	Upload key to server
+		Create remote folder
+		ssh -p2222 username@example.com mkdir -p .ssh
+		
+		cat ~/.ssh/id_rsa.pub | ssh -p2222 username@example.com 'cat >> .ssh/authorized_keys'
+
+	Save ssh config
+
+	.ssh/config
+		Host example.com
+			Port 2222
+			User username
+		
+	ssh example.com
+	
+Navigating a command-line shell
+
+	~ - home directory
+	$ - normal user
+	# - root user	( highest administrator user)
+
+	ls -la - show hidden files 
+	
+	. and .. Directory names
+		. - current directory
+		.. - parent directort
+		Useful for relative paths
+	
+	Log files can be found /var/log
+
+Reading and searching files
+	
+	Reading parts of file
+		Just the beginning or end
+	head - access beginning of file
+	tail - access end of file
+
+	head filename.ext
+	tail filename.ext
+
+	Less command
+		page through contents of a file
+			keyboard controls
+			[return] - go forward one line
+			[space] or f - scroll one page
+			b - go backward one page
+			q - quit
+	
+	less filename.ext
+
+	find command
+		It searches for files in a directory
+		Files that match will be listed with the relative path and file name
+
+	find .
+
+	grep command
+		displaying lines that match the pattern
+		Patterns can be
+			Text- a word or phrase
+			Regular expressions - programmatic matching	
+		Case sensitive by default
+			can be turned off -i
+
+	pipe command
+		passes the output from one command to another
+	
+	example: Only see log files that have the name error in it
+	find . | grep error
+
+	find file
+		grep -i jpeck auth.log
+		match all authorization attempts from jpeck
+
+	
+
+ 
+
+	
+
+
+
+
+

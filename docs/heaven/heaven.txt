@@ -1,0 +1,105 @@
+Brainstorming
+- HTML
+- CSS
+- Javascript / AJAX
+- Node
+- PHP
+- Ruby
+- SASS
+- Powershell
+- VBSript
+- Python
+- Regex
+
+- OSX
+- Windows 7/10
+- Windows Server 2012
+- Ubuntu 14.04 / 16.04
+- Debian 8
+
+ 
+- Visual Studio
+- Vsphere 
+- Virtual Box
+- Adobe Creative Cloud
+- AWS EC2, AWS S3
+
+- MySQL
+- Apache
+- Web Services SOAP/REST Formats: XML/JSON
+- LDAP
+- SSH
+- SSL
+
+  
+- Automation
+- Selenium
+- PhantomJS
+- Capistrano
+- cron
+- web scraping
+ 
+- Git
+- Drupal CMS
+
+Wire-Framing
+- Axure
+- Sketchapp
+- Invision
+
+Web Services
+ - Imgur
+ - theBus - xml
+ - Amadeus - soap/ restful
+
+Project/Team management
+- Trello
+- Slack
+- Jira
+
+- Non Dev Stuff
+- Active Directory Administration
+- Shoretel Administration
+- Remote Desktop
+- Exchange
+- Shares
+- file permissions
+- proofpoint email protection
+- project planning
+
+Projects
+- Intranet
+- Company Phonebook
+- Documentation
+- Publications Database
+- Crisis Site
+- Active Directory Bulk Users Script
+- Logging & Alerts
+- HTML Email design and build
+- Membership card design
+- Data mining automation script
+- Video Editing
+- Gitlab
+- Amadeus E commerce
+- Amadeus ALMS loyalty
+	- Session via api token
+- Employee Travel Online form 
+
+Duties
+- Website updates
+- Testing & QA
+- Documentation and Training
+- Project Planning
+- DocuSign 
+
+Help Desk
+- User account assistance
+- hardware/software troubleshooting
+- printer repair
+- setup new users
+- re-imaging
+-  
+
+- excel file cleanup 
+
+ 

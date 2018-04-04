@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/heavenlee
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://www.heavenlee.io
+  * I am heavenlee (https://keybase.io/heavenlee) on keybase.
+  * I have a public key ASDMGownlAsJAtu9CDYnr2jgj3Utz6qgYliyXArf21ZEAwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120cc1a8c27940b0902dbbd083627af68e08f752dcfaaa06258b25c0adfdb5644030a",
+      "host": "keybase.io",
+      "kid": "0120cc1a8c27940b0902dbbd083627af68e08f752dcfaaa06258b25c0adfdb5644030a",
+      "uid": "c90aac07e097d56b53d1b58ff10a9919",
+      "username": "heavenlee"
+    },
+    "merkle_root": {
+      "ctime": 1510264016,
+      "hash": "84e46ca9d13af7e6350ed91635242badf5621f33e1d7a4d18bbce4870db5025eccc9f166a9b0b564757de6efc3be4b5896b90154920300e5cc48a7d5e4e8a5d0",
+      "hash_meta": "ba07f203bfeb714725e5a84c0941ed2fb313d634018ca7059c0410b26f3a5d36",
+      "seqno": 1687290
+    },
+    "service": {
+      "hostname": "www.heavenlee.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.35"
+  },
+  "ctime": 1510264027,
+  "expire_in": 504576000,
+  "prev": "82401d4acf984db6ae513eaef2df7a88aed00ba16d20ab9cba410d0d6523aa0a",
+  "seqno": 13,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgzBqMJ5QLCQLbvQg2J69o4I91Lc+qoGJYslwK39tWRAMKp3BheWxvYWTFA0p7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwY2MxYThjMjc5NDBiMDkwMmRiYmQwODM2MjdhZjY4ZTA4Zjc1MmRjZmFhYTA2MjU4YjI1YzBhZGZkYjU2NDQwMzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwY2MxYThjMjc5NDBiMDkwMmRiYmQwODM2MjdhZjY4ZTA4Zjc1MmRjZmFhYTA2MjU4YjI1YzBhZGZkYjU2NDQwMzBhIiwidWlkIjoiYzkwYWFjMDdlMDk3ZDU2YjUzZDFiNThmZjEwYTk5MTkiLCJ1c2VybmFtZSI6ImhlYXZlbmxlZSJ9LCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTUxMDI2NDAxNiwiaGFzaCI6Ijg0ZTQ2Y2E5ZDEzYWY3ZTYzNTBlZDkxNjM1MjQyYmFkZjU2MjFmMzNlMWQ3YTRkMThiYmNlNDg3MGRiNTAyNWVjY2M5ZjE2NmE5YjBiNTY0NzU3ZGU2ZWZjM2JlNGI1ODk2YjkwMTU0OTIwMzAwZTVjYzQ4YTdkNWU0ZThhNWQwIiwiaGFzaF9tZXRhIjoiYmEwN2YyMDNiZmViNzE0NzI1ZTVhODRjMDk0MWVkMmZiMzEzZDYzNDAxOGNhNzA1OWMwNDEwYjI2ZjNhNWQzNiIsInNlcW5vIjoxNjg3MjkwfSwic2VydmljZSI6eyJob3N0bmFtZSI6Ind3dy5oZWF2ZW5sZWUuaW8iLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4zNSJ9LCJjdGltZSI6MTUxMDI2NDAyNywiZXhwaXJlX2luIjo1MDQ1NzYwMDAsInByZXYiOiI4MjQwMWQ0YWNmOTg0ZGI2YWU1MTNlYWVmMmRmN2E4OGFlZDAwYmExNmQyMGFiOWNiYTQxMGQwZDY1MjNhYTBhIiwic2Vxbm8iOjEzLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQKKBIru7ErDdWR3gunCQXR1+cLhJ0fIYduOeDclAt1Sta5orc0TC8es3FZuukQ2iQq7zNxMdTlg8dI4sbvQQ0gSoc2lnX3R5cGUgpGhhc2iCpHR5cGUIpXZhbHVlxCCOyfI+Ojj6riHxZKxb9ZNs//BpG/F/BSJKZ1Es+3zsRqN0YWfNAgKndmVyc2lvbgE=
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/heavenlee
+
+==================================================================

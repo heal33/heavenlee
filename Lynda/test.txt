@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- Track loading time of page -->
+    <script type="text/javascript">
+    before = (new Date()).getTime();
+    </script>
+    <meta charset="utf-8">
+
+<!--
+ ____ ____ ____ ____ ____ ____ _________ ____ ____ ____ 
+||H |||e |||a |||v |||e |||n |||       |||L |||e |||e ||
+||__|||__|||__|||__|||__|||__|||_______|||__|||__|||__||
+|/__\|/__\|/__\|/__\|/__\|/__\|/_______\|/__\|/__\|/__\|
+
+-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="img/favicon.ico" rel="icon" type="image/x-icon" />
+
+    <title>h e a v e n l e e</title>
+
+
+
+    <!-- My Custom styles -->
+    <link href="css/styles.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <div class="container">
+    
+      <!-- fixed content -->
+      <div class="row fixed">
+        <div class="header">
+                <h1><span>//</span> heavenlee</h1>
+        </div>
+
+        <div class="block">
+          <div>
+            <span>Social</span>
+          </div>
+          <ul>
+            <li><a href="https://github.com/heal33/" target="_blank">GitHub</a></li>
+            <li><a href="https://twitter.com/heal33" target="_blank">Twitter</a></li>
+            <li><a href="https://www.linkedin.com/in/heaven-lee-saenz-136044116/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com/ch0c080/" target="_blank">Instagram</a></li>
+          </ul>
+        </div>
+
+        <div class="block">
+          <div>
+            <span>Dev Stuff</span>
+          </div>
+          <ul>
+            <li><a href="https://fonts.google.com/" target="_blank">Google Web Fonts</a></li>
+            <li><a href="https://jsfiddle.net/" target="_blank">JSFiddle</a></li>
+            <li><a href="http://codepen.io/" target="_blank">Codepen</a></li>
+            <li><a href="http://rubular.com/" target="_blank">Rubular</a></li>
+            <li><a href="http://stackoverflow.com/" target="_blank">Stack Overflow</a></li>
+          </ul>
+        </div>
+
+        <div class="block">
+          <div>
+            <span>Tools</span>
+          </div>
+          <ul>
+            <li><a href="http://www.sublimetext.com/" target="_blank">Sublime</a></li>
+            <li><a href="https://www.vagrantup.com/" target="_blank">Vagrant</a></li>
+            <li><a href="https://www.iterm2.com/" target="_blank">iTerm</a></li>
+            <li><a href="https://vim.rtorr.com/" target="_blank">Vim</a></li>
+            <li><a href="http://sass-lang.com/" target="_blank">Sass</a></li>
+            <li><a href="http://getbootstrap.com/" target="_blank">Bootstrap</a></li>
+            <li><a href="https://www.sketchapp.com/" target="_blank">Sketch</a></li>
+          </ul>
+        </div>
+
+        <div class="block">
+          <div>
+            <span>Reddit</span>
+          </div>
+          <ul>
+            <li><a href="https://www.reddit.com/" target="_blank">front</a></li>
+            <li><a href="https://www.reddit.com/r/webdev/" target="_blank">/r/webdev</a></li>
+            <li><a href="https://www.reddit.com/r/linux/" target="_blank">/r/linux</a></li>
+            <li><a href="https://www.reddit.com/r/web_design/" target="_blank">/r/web_design</a></li>
+            <li><a href="https://www.reddit.com/r/unixporn/" target="_blank">/r/unixporn</a></li>
+            <li><a href="https://www.reddit.com/r/devops/" target="_blank">/r/devops</a></li>
+          </ul>
+        </div>
+
+
+              <div class="row">
+        <div class="block four">
+          <div>
+            <span>Projects</span>
+          </div>
+          <ul>
+            <li><span><a href="http://heal33.github.io/uom/" target="_blank">E-commerce front end design</a></span> html // css // jquery // bootstrap<span> <a href="https://github.com/heal33/flickr-photo-search/tree/gh-pages" target="_blank">code -></a></span></li>
+            <li><span><a href="http://heal33.github.io/flickr-photo-search/" target="_blank">Flickr Photo Search</a></span> html // css // jquery // api // json<span> <a href="https://github.com/heal33/flickr-photo-search/tree/gh-pages" target="_blank">code -></a></span></li>
+            <li><span><a href="http://heal33.github.io/hawaii-ghost-stories/" target="_blank">Hawaii Ghost Stories</a></span> html // css // jquery<span> <a href="https://github.com/heal33/hawaii-ghost-stories/tree/gh-pages" target="_blank">code -></a></span></li>
+            <li><span>Bulk create Active Directory Users from CSV</span> powershell // active directory <span> <a href="#" target="_blank"></a></span></li>
+            <li><span><a href="http://ec2-52-41-123-177.us-west-2.compute.amazonaws.com/bootstrap/index.php" target="_blank">PHP CRUD Grid</a></span> php // bootstrap // aws</li>
+            
+          </ul>
+        </div>
+      </div><!-- /.row -->
+      <div class="row">
+
+        <div class="block four">
+          <div>
+            <span>Blog</span>
+          </div>
+          <ul>
+            <li><span><a href="http://blog.heavenlee.io">blog.heavenlee.io</a></span> development blog</li>
+          </ul>
+        </div>
+  
+      </div><!-- /.row -->
+            <!-- twitter sidebar -->
+      <div class="twitter">
+            <a class="twitter-timeline" data-width="500" data-theme="dark" data-link-color="#19CF86" href="https://twitter.com/heal33">Tweets by heal33</a> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+    </div><!-- /.row -->
+
+
+
+
+    </div><!-- /.container -->
+  </body>
+</html>
